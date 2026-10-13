@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#1c1f10"/>
+      <stop offset="1" stop-color="#09090b"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <!-- loop arrow: ~300° arc around the center, gap at top-right -->
+  <path d="M 512 222 A 290 290 0 1 0 763 367"
+        fill="none" stroke="#d7ff3c" stroke-width="64" stroke-linecap="round"/>
+  <!-- arrowhead at the arc's end, pointing clockwise -->
+  <path d="M 851 316 L 708 262 L 675 418 Z" fill="#d7ff3c" stroke="#d7ff3c" stroke-width="20" stroke-linejoin="round"/>
+  <!-- play button -->
+  <path d="M 440 372 L 640 512 L 440 652 Z" fill="#d7ff3c" stroke="#d7ff3c" stroke-width="44" stroke-linejoin="round"/>
+</svg>
